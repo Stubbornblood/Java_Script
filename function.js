@@ -21,3 +21,10 @@ function multiply(num1,num2){
 
 let ans = multiply(3,5);
 console.log(ans);
+
+//function storing
+
+let a = function sub(num1,num2){
+    return num1-num2;
+}
+console.log(a(10,5));
